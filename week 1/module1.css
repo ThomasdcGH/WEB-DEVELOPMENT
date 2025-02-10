@@ -1,0 +1,30 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px grey;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    list-style: none;
+    border: 3px solid black;
+}
+
+body{background-color: rgb(43, 49, 49);}
+
+.linktext1{
+    transform: rotate(180deg);
+}
+.linktext2{
+    transform: rotate(180deg);
+}
+
+.paratext{
+    border: 5px solid silver ;
+    box-shadow: rgba(255, 0, 0, 0.2)0px 8px 24px;
+}
