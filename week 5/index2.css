@@ -11,8 +11,11 @@ nav{
 }
 
 nav ul {
+    list-style: none;
     display: flex;
     justify-content: space-around;
+    text-align: center;
+    padding: 0%;
 }
 
 nav ul li {
