@@ -22,14 +22,18 @@ nav ul li {
 
 nav ul ul {
     position: absolute;
-    display: none;
+    display: block;
     background-color: green;
     width: 100%;
     padding: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+    pointer-events: none;
 }
 
 nav ul li:hover ul {
-    display: block;
+    opacity: 1;
+    pointer-events: auto;
 }
 
 nav ul ul li:hover {
